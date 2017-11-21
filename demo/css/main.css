@@ -1,0 +1,103 @@
+hr.style1 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+hr.style2 {
+	height: 10px;	
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#kanijpg {
+  float: right;
+}
+
+#task-progress, #progress {
+  font-size: 20px;
+}
+
+#waveform-container {
+	margin-top: 30px;
+  clear:both;
+}
+
+#wav-play {
+  margin: 0 350px;
+}
+
+#submit-button {
+ margin:0 30px;
+}
+
+#waveform {
+  float: clear;
+	margin: 10px;
+	background-color: #e0f0ff;
+}
+
+#time, #srate {
+	margin-left: 20px;
+}
+
+#message {
+	margin-right: 20px;
+}
+
+#next-submit {
+	visibility: hidden;
+}
+
+.warning {
+	font-weight: bold;
+	color: crimson;
+}
+
+#pdf-window {
+  display: block;
+  margin: auto;
+  background-color: currentColor;
+}
+
+#controllers2 {
+  display: block;
+}
+
+#user-panel {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#start-button {
+	width: 70px;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+		text-align : center;
+}
+
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#footer {
+		font-size: 10px;
+	}
+
+	#user-panel {
+		width: auto;
+	}
+
+       #
+}

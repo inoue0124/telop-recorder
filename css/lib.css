@@ -1,0 +1,51 @@
+input[type="text"], input[type="number"], input[type="password"], textarea
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: dodgerblue;
+}
+
+input[type="text"], input[type="number"], input[type="password"]
+{
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input[type="submit"], input[type="button"]
+{
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: aliceblue;
+    border: 1px solid;
+    border-color: dodgerblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover
+{
+    background-color: azure;
+}
+
+input[type="submit"][disabled], input[type="button"][disabled]
+{
+    background-color: gainsboro;
+    border-color: dimgray;
+    cursor: default;
+}
+
+input[type="file"]
+{
+    font-family: inherit;
+    font-size: 100%;
+}
